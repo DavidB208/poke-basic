@@ -1,0 +1,48 @@
+@use './variables' as v;
+
+.pokemon{
+    display: flex;
+
+    //border: 2px solid greenyellow;
+
+    justify-content: center;
+    align-items: center;
+
+    &-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+        width: 15rem;
+        height: 20rem;
+        background-color: v.$color2;
+
+        cursor: pointer;
+        box-shadow: 3px 3px 10px;
+    }
+
+    &-img{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        //border: 2px solid  ;    
+    }
+
+    &-name{
+        //border: 2px solid blue;
+        height: 100%;
+        font-size: 2rem;
+        text-transform: capitalize;
+        color: white;
+    }
+}
+
+-container{
+    display: flex;
+    border: 2px solid;
+    height: 80vh;
+
+    justify-content: center;
+    align-items: center;
+}
