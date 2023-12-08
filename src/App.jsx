@@ -3,7 +3,7 @@ import './sass/app.scss'
 
 //Components
 import { Routes, Route } from 'react-router-dom'
-import Layout from './Layout'
+import { Layout } from './Layout'
 import { Info } from './components/Info'
 import Default from './Default'
 
